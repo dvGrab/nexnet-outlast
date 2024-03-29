@@ -1,0 +1,39 @@
+﻿#pragma once
+
+/**
+ * Name: TRIALS
+ * Version: FINAL
+ */
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+	// --------------------------------------------------
+	// # Classes
+	// --------------------------------------------------
+	/**
+	 * BlueprintGeneratedClass SpotLight_01.SpotLight-01_C
+	 * Size -> 0x001A (FullSize[0x0778] - InheritedSize[0x075E])
+	 */
+	class ASpotLight__C : public ARBLight_BP_C
+	{
+	public:
+		unsigned char                                              UnknownData_VLL1[0x2];                                   // 0x075E(0x0002) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FPointerToUberGraphFrame                            UberGraphFrame;                                          // 0x0760(0x0008) ZeroConstructor, Transient, DuplicateTransient
+		class USpotLightComponent*                                 SpotLight_Static;                                        // 0x0768(0x0008) BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash
+		class USpotLightComponent*                                 SpotLight_Movable;                                       // 0x0770(0x0008) BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash
+
+	public:
+		void ReceiveBeginPlay();
+		void ExecuteUbergraph_SpotLight(int32_t EntryPoint);
+		static UClass* StaticClass();
+	};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

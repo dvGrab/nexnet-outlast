@@ -1,0 +1,36 @@
+﻿#pragma once
+
+/**
+ * Name: OUTLAST
+ * Version: 0.0.2_fixed
+ */
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+	// --------------------------------------------------
+	// # Classes
+	// --------------------------------------------------
+	/**
+	 * BlueprintGeneratedClass PS_CrownMoldingPlaster_01_BP.PS_CrownMoldingPlaster-01_BP_C
+	 * Size -> 0x0002 (FullSize[0x0413] - InheritedSize[0x0411])
+	 */
+	class APS_CrownMoldingPlaster01_BP_C : public AMeshPopulate_BP_C
+	{
+	public:
+		EGrayBoxMat_ENU                                            Materials;                                               // 0x0411(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       UseOverwriteMaterials;                                   // 0x0412(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor
+
+	public:
+		void UserConstructionScript();
+		static UClass* StaticClass();
+	};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

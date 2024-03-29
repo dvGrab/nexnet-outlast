@@ -1,0 +1,423 @@
+﻿#pragma once
+
+/**
+ * Name: TRIALS
+ * Version: FINAL
+ */
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+	// --------------------------------------------------
+	// # Structs
+	// --------------------------------------------------
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.AnimGraph
+	 */
+	struct UflipNumberAnimation_BP_C_AnimGraph_Params
+	{
+	public:
+		struct FPoseLink                                           AnimGraph;                                               // 0x0000(0x0010)  (Parm, OutParm, NoDestructor)
+	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_0245ACE140B468BA1B85079499DED044
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_0245ACE140B468BA1B85079499DED044_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_2A894FB248CABE0C51DF8A8F1474EF86
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_2A894FB248CABE0C51DF8A8F1474EF86_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_489DA9D1409B48E7DBEC81B7D500066B
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_489DA9D1409B48E7DBEC81B7D500066B_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_429DDFCF4717E3409BC801BE2535B03C
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_429DDFCF4717E3409BC801BE2535B03C_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_07A6725245E87D17F53F8DB039DB5CB0
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_07A6725245E87D17F53F8DB039DB5CB0_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_5935159A491DA4E56AAFB5A2CA02CE79
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_5935159A491DA4E56AAFB5A2CA02CE79_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_5C7F4CE541BE3A8E36DC4B99E75A8AD2
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_5C7F4CE541BE3A8E36DC4B99E75A8AD2_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_BABF9CAF4263B2D5F15B67A6AE930D7C
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_BABF9CAF4263B2D5F15B67A6AE930D7C_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_D4510AE445C7642C7BF5C2B3ED57496B
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_D4510AE445C7642C7BF5C2B3ED57496B_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_463DBF9941FF98184280AA90272A88D2
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_463DBF9941FF98184280AA90272A88D2_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_E008D12F407D4FB2EA5B759E3627FFEC
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_E008D12F407D4FB2EA5B759E3627FFEC_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_AF6650FF4E5206B5CEC5B4BB4E35E4BE
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_AF6650FF4E5206B5CEC5B4BB4E35E4BE_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_22F2B95D4FACA0AA824CAFAE659DF06B
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_22F2B95D4FACA0AA824CAFAE659DF06B_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_9E6BAFD546A3118AA4CFFA88CECF8D6F
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_9E6BAFD546A3118AA4CFFA88CECF8D6F_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_F258B007445CA41B999384AFE43D1F72
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_F258B007445CA41B999384AFE43D1F72_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_6D6285084F55B2495F68C5A6088F876F
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_6D6285084F55B2495F68C5A6088F876F_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_3E0BE8C44C89E8B26357FDB91EF8A6EF
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_3E0BE8C44C89E8B26357FDB91EF8A6EF_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_531C56ED4D6C457AA33BED98B0694DAB
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_531C56ED4D6C457AA33BED98B0694DAB_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_4D43F7514D9102FB42418FA8A528D4EF
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_4D43F7514D9102FB42418FA8A528D4EF_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_25816C0B450509B1E759748442713DB9
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_25816C0B450509B1E759748442713DB9_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_EA1F32C84C9388858261148047EF2546
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_EA1F32C84C9388858261148047EF2546_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_B179DE2E4ADBD52360AAC698A4FE6370
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_B179DE2E4ADBD52360AAC698A4FE6370_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_A9CFC1FF4359624BC561E9AD47E81CDC
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_A9CFC1FF4359624BC561E9AD47E81CDC_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_306C26224BF35E6F409D88A98B97D95D
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_306C26224BF35E6F409D88A98B97D95D_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_CB9667A84E6B1E524F5F5CA816F4A36B
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_CB9667A84E6B1E524F5F5CA816F4A36B_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_D16C867B44209EB3EBE3ADA252CA2470
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_D16C867B44209EB3EBE3ADA252CA2470_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_B23AD1B64FC65067B2AF89BBCEC64BCB
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_B23AD1B64FC65067B2AF89BBCEC64BCB_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_8DAB96364D170D4814B91FB2C392929C
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_8DAB96364D170D4814B91FB2C392929C_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_039D67DF4E0BAA3041579C89193A0362
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_039D67DF4E0BAA3041579C89193A0362_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_4407932F4DDEB85BB78084A6CA321348
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_4407932F4DDEB85BB78084A6CA321348_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_A9607F224F92115C271F0BB071580880
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_A9607F224F92115C271F0BB071580880_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_EBF79C074A659E3DB359708A34152568
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_EBF79C074A659E3DB359708A34152568_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_9DC0CA214057CB64F1F633BF1E630CCB
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_9DC0CA214057CB64F1F633BF1E630CCB_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_06BDCBA04F763309A488409FD4D4C41F
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_06BDCBA04F763309A488409FD4D4C41F_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_FE656B9444F35284B01835936A3BEB53
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_FE656B9444F35284B01835936A3BEB53_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_E6804EC240004D514164DA80D78C203F
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_E6804EC240004D514164DA80D78C203F_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_AB12416C43A9A5093575E5BD59574363
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_AB12416C43A9A5093575E5BD59574363_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_0112E5D045B826BE28A20C91BB7014B7
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_0112E5D045B826BE28A20C91BB7014B7_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_ADEB57A9456E68CA64FE24A8E8D7C3BA
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_ADEB57A9456E68CA64FE24A8E8D7C3BA_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_4B8C5EBC4639BF58B35F8D9A2DCCADD4
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_4B8C5EBC4639BF58B35F8D9A2DCCADD4_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_4C069CA94693CFF6A4919FA4077E8B3C
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_4C069CA94693CFF6A4919FA4077E8B3C_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_734CEA0644361E4AB49E55A804B056C1
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_734CEA0644361E4AB49E55A804B056C1_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_88E69F8B412E54F1A8B860905310D6DB
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_88E69F8B412E54F1A8B860905310D6DB_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_4FD92D514AD3EEE4BE6CC492AD84212A
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_4FD92D514AD3EEE4BE6CC492AD84212A_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_AD527D4D4D3FD59C7B378CA72AFA45EA
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_AD527D4D4D3FD59C7B378CA72AFA45EA_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_E97DDE3E4A978E174EA661AC95CDD7A2
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_E97DDE3E4A978E174EA661AC95CDD7A2_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_DD49069342E38095C42A559B5647941A
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_DD49069342E38095C42A559B5647941A_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_6669C2E647598A1066E9C0BD456C9B00
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_6669C2E647598A1066E9C0BD456C9B00_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_8DCD32BC4C6D1EBB2496ACB432205D6C
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_8DCD32BC4C6D1EBB2496ACB432205D6C_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_1DF8146740709F6DCB1B3187A5ECB577
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_1DF8146740709F6DCB1B3187A5ECB577_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_44FB4D9B4711071C2BDE6CBA0804AFD4
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_44FB4D9B4711071C2BDE6CBA0804AFD4_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_FE427A354F5CDC3035B29B8EF4DB2525
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_FE427A354F5CDC3035B29B8EF4DB2525_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_5183B27C4E7A0EFAB27C1B8C0A950887
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_5183B27C4E7A0EFAB27C1B8C0A950887_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_1B0AAE81430C7016C5CA21A698B2B706
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_1B0AAE81430C7016C5CA21A698B2B706_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_A04D513F49619CF816DEE3AF29D1A96A
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_A04D513F49619CF816DEE3AF29D1A96A_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_DE296B9E4DB49CD1CCD30A9550DFABC1
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_DE296B9E4DB49CD1CCD30A9550DFABC1_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_020435C340B9FBA96437F6926031A403
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_020435C340B9FBA96437F6926031A403_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_F56BB21F4A9B2E9744F29E86B6003790
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_F56BB21F4A9B2E9744F29E86B6003790_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_3C43B35245D1FC909FFDDA94D583C315
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_3C43B35245D1FC909FFDDA94D583C315_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_CB8FF481438FA2101BDF6FAF3323CA55
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_CB8FF481438FA2101BDF6FAF3323CA55_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_D3B79FDC4BB486F041AC09AAC57E66C5
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_D3B79FDC4BB486F041AC09AAC57E66C5_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_5CB8B95840B5428EC5BF838978268E07
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_5CB8B95840B5428EC5BF838978268E07_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_712C40DC44448F852B373A99681FFB39
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_712C40DC44448F852B373A99681FFB39_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation-BP_AnimGraphNode_TransitionResult_3B3638874DE2FDA5FF9BA7B1C3D04391
+	 */
+	struct UflipNumberAnimation_BP_C_EvaluateGraphExposedInputs_ExecuteUbergraph_flipNumberAnimation_BP_AnimGraphNode_TransitionResult_3B3638874DE2FDA5FF9BA7B1C3D04391_Params
+	{	};
+
+	/**
+	 * Function flipNumberAnimation-BP.flipNumberAnimation-BP_C.ExecuteUbergraph_flipNumberAnimation-BP
+	 */
+	struct UflipNumberAnimation_BP_C_ExecuteUbergraph_flipNumberAnimation_BP_Params
+	{
+	public:
+		int32_t                                                    EntryPoint;                                              // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

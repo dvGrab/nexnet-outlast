@@ -1,0 +1,82 @@
+﻿#pragma once
+
+/**
+ * Name: READYORNOT
+ * Version: 0.0.1
+ */
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+	// --------------------------------------------------
+	// # Classes
+	// --------------------------------------------------
+	/**
+	 * WidgetBlueprintGeneratedClass W_ItemSelectionMenu.W_ItemSelectionMenu_C
+	 * Size -> 0x0118 (FullSize[0x0390] - InheritedSize[0x0278])
+	 */
+	class UW_ItemSelectionMenu_C : public UBaseWidget
+	{
+	public:
+		struct FPointerToUberGraphFrame                            UberGraphFrame;                                          // 0x0278(0x0008) ZeroConstructor, Transient, DuplicateTransient
+		class UWidgetAnimation*                                    SlideIn;                                                 // 0x0280(0x0008) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, IsPlainOldData, RepSkip, NoDestructor, HasGetValueTypeHash
+		class UWidgetAnimation*                                    FadeOut;                                                 // 0x0288(0x0008) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, IsPlainOldData, RepSkip, NoDestructor, HasGetValueTypeHash
+		class UW_DebugInfoContainer_C*                             DebugInfoContainer_Menu;                                 // 0x0290(0x0008) BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash
+		class UW_ItemSelection_ItemGroupList_C*                    ItemGroupList;                                           // 0x0298(0x0008) BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash
+		float                                                      MouseWheelDelta;                                         // 0x02A0(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_UG5Y[0x4];                                   // 0x02A4(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FKey                                                OpeningMenuKey;                                          // 0x02A8(0x0018) Edit, BlueprintVisible, DisableEditOnInstance, HasGetValueTypeHash
+		struct FKey                                                PreviousMenuTriggerKey;                                  // 0x02C0(0x0018) Edit, BlueprintVisible, DisableEditOnInstance, HasGetValueTypeHash
+		TArray<struct FKey>                                        MenuOpenKeyTriggers;                                     // 0x02D8(0x0010) Edit, BlueprintVisible, DisableEditOnInstance
+		TArray<struct FItemSelectionGroup>                         ItemGroups;                                              // 0x02E8(0x0010) Edit, BlueprintVisible, ExposeOnSpawn
+		bool                                                       bInitialized;                                            // 0x02F8(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
+		unsigned char                                              UnknownData_E60G[0x3];                                   // 0x02F9(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		int32_t                                                    SelectedColumn;                                          // 0x02FC(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bFadedOut;                                               // 0x0300(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
+		unsigned char                                              UnknownData_UGIF[0x7];                                   // 0x0301(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		class APlayerCharacter*                                    PlayerCharacter;                                         // 0x0308(0x0008) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		bool                                                       bIsActive;                                               // 0x0310(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
+		unsigned char                                              UnknownData_X8P5[0x7];                                   // 0x0311(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FTimerHandle                                        TH_FadeOut;                                              // 0x0318(0x0008) Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
+		TMap<struct FKey, int32_t>                                 QueuedSelections;                                        // 0x0320(0x0050) Edit, BlueprintVisible, DisableEditOnInstance
+		int32_t                                                    OpenMenuTriggerCount;                                    // 0x0370(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
+		unsigned char                                              UnknownData_613F[0x4];                                   // 0x0374(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		struct FTimerHandle                                        TH_FadeOutSelected;                                      // 0x0378(0x0008) Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash
+		class FScriptMulticastDelegate                             OnMenuOpened;                                            // 0x0380(0x0010) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable
+
+	public:
+		void ResetAnimationFadeOutState();
+		void FindItemFromColumnIndex(class UW_ItemSelection_ItemList_C** Return_Value);
+		void FadeOutSelectedColumn();
+		void CanQueueSelection(bool* Return_Value);
+		void QueuedExecuteSelection();
+		void FindColumnIndexFromItem(class ABaseItem* InItem, int32_t* Return_Value);
+		void IsOpen(bool* Return_Value);
+		void HideMenu();
+		void RemoveItemFromMenu(class ABaseItem* ItemToRemove, int32_t List_Index);
+		bool UpdateDebugInfo();
+		void CanNavigate(bool* Return_Value);
+		void SetMouseWheelDelta(float NewMouseWheelDelta);
+		void ExecuteSelection(int32_t Index);
+		void CloseMenu();
+		void OpenMenu(const struct FKey& TriggerKey);
+		void OnWeaponMagCheck_Event_1(class ABaseMagazineWeapon* MagazineWeapon);
+		void OnInitialized();
+		void OnFadeOutFinished();
+		void Tick(const struct FGeometry& MyGeometry, float InDeltaTime);
+		void PreConstruct(bool IsDesignTime);
+		void Initialize(bool bForce, TArray<struct FItemSelectionGroup> InItemSelectionGroups);
+		void CustomEvent_1();
+		void ExecuteUbergraph_W_ItemSelectionMenu(int32_t EntryPoint);
+		void OnMenuOpened__DelegateSignature();
+		static UClass* StaticClass();
+	};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

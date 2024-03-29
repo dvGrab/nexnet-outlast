@@ -1,0 +1,29 @@
+﻿/**
+ * Name: TRIALS
+ * Version: FINAL
+ */
+
+#include "pch.h"
+
+namespace CG
+{
+	// --------------------------------------------------
+	// # Structs Functions
+	// --------------------------------------------------
+	/**
+	 * Function:
+	 * 		RVA    -> 0x00000000
+	 * 		Name   -> PredefinedFunction ARailing__BP_C.StaticClass
+	 * 		Flags  -> (Predefined, Static)
+	 */
+	UClass* ARailing__BP_C::StaticClass()
+	{
+		static UClass* ptr = nullptr;
+		if (!ptr)
+			ptr = UObject::FindClass("BlueprintGeneratedClass Railing_02_BP.Railing-02_BP_C");
+		return ptr;
+	}
+
+}
+
+

@@ -1,0 +1,61 @@
+﻿#pragma once
+
+/**
+ * Name: OUTLAST
+ * Version: 0.0.2_fixed
+ */
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+	// --------------------------------------------------
+	// # Structs
+	// --------------------------------------------------
+	/**
+	 * Function QuestItem_KeyBox_AnimBP.QuestItem_KeyBox_AnimBP_C.AnimGraph
+	 */
+	struct UQuestItem_KeyBox_AnimBP_C_AnimGraph_Params
+	{
+	public:
+		struct FPoseLink                                           AnimGraph;                                               // 0x0000(0x0010)  (Parm, OutParm, NoDestructor)
+	};
+
+	/**
+	 * Function QuestItem_KeyBox_AnimBP.QuestItem_KeyBox_AnimBP_C.BlueprintInitializeAnimation
+	 */
+	struct UQuestItem_KeyBox_AnimBP_C_BlueprintInitializeAnimation_Params
+	{	};
+
+	/**
+	 * Function QuestItem_KeyBox_AnimBP.QuestItem_KeyBox_AnimBP_C.BlueprintUpdateAnimation
+	 */
+	struct UQuestItem_KeyBox_AnimBP_C_BlueprintUpdateAnimation_Params
+	{
+	public:
+		float                                                      DeltaTimeX;                                              // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	};
+
+	/**
+	 * Function QuestItem_KeyBox_AnimBP.QuestItem_KeyBox_AnimBP_C.Reset
+	 */
+	struct UQuestItem_KeyBox_AnimBP_C_Reset_Params
+	{	};
+
+	/**
+	 * Function QuestItem_KeyBox_AnimBP.QuestItem_KeyBox_AnimBP_C.ExecuteUbergraph_QuestItem_KeyBox_AnimBP
+	 */
+	struct UQuestItem_KeyBox_AnimBP_C_ExecuteUbergraph_QuestItem_KeyBox_AnimBP_Params
+	{
+	public:
+		int32_t                                                    EntryPoint;                                              // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+		unsigned char                                              UnknownData_67O7[0x4];                                   // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
+	};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
